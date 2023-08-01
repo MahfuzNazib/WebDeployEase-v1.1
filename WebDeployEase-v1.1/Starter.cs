@@ -1,8 +1,8 @@
 namespace WebDeployEase_v1._1
 {
-    public partial class Form1 : Form
+    public partial class Starter : Form
     {
-        public Form1()
+        public Starter()
         {
             InitializeComponent();
         }
