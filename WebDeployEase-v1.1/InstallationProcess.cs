@@ -21,17 +21,19 @@ namespace WebDeployEase_v1._1
         public InstallationProcess()
         {
             InitializeComponent();
+            //timerFirstMethodCall.Interval = 2000;
         }
 
         private void InstallationProcess_Load(object sender, EventArgs e)
         {
-            if(CreateApplicationFolder())
-            {
-                MessageBox.Show("Application Created","Success", MessageBoxButtons.OK,MessageBoxIcon.Information);
-            }
+            picBoxErrorApplicationFolder.Visible = false;
+            panelApplicationCreate.Visible = false;
+            panelTryToLoginDefaultDatabase.Visible = false;
+
+            timerFirstMethodCall.Start();
         }
 
-        private bool CreateApplicationFolder()
+        private void CreateApplicationFolder()
         {
             string applicationFullPath = Path.Combine(applicationFolderPath, applicationName);
 
@@ -40,16 +42,40 @@ namespace WebDeployEase_v1._1
                 if(!Directory.Exists(applicationFullPath))
                 {
                     Directory.CreateDirectory(applicationFullPath);
-                    return true;
+                    panelApplicationCreate.Visible = true;
+
+                    TryToLoginIntoSqlServer();
+                }
+                else
+                {
+                    picBoxErrorApplicationFolder.Visible=true;
+                    picBoxSuccessApplicationFolderCreate.Visible = false;
                 }
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message,"Error",MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return false;
             }
 
-            return true;
+
+        }
+
+
+        private void TryToLoginIntoSqlServer()
+        {
+            Thread.Sleep(6000);
+            panelTryToLoginDefaultDatabase.Visible = true;
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timerFirstMethodCall_Tick(object sender, EventArgs e)
+        {
+            CreateApplicationFolder();
+            timerFirstMethodCall.Stop();
         }
     }
 }

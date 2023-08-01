@@ -25,12 +25,12 @@ namespace WebDeployEase_v1._1
         {
             if (UserInputValidation())
             {
+                this.Hide();
+
                 InstallationProcess installationProcess = new InstallationProcess();
                 installationProcess.applicationName = txtApplicationName.Text;
                 installationProcess.applicationFolderPath = txtFolderPath.Text;
                 installationProcess.Show();
-
-                this.Hide();
             }
         }
 
@@ -67,6 +67,11 @@ namespace WebDeployEase_v1._1
             }
 
             return true;
+        }
+
+        private void Starter_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

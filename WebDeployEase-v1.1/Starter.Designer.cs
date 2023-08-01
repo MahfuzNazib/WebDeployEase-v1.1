@@ -246,6 +246,7 @@
             this.Name = "Starter";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Web Deploy Installer";
+            this.Load += new System.EventHandler(this.Starter_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

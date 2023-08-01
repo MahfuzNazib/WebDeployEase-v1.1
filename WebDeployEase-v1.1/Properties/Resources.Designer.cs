@@ -83,6 +83,16 @@ namespace WebDeployEase_v1._1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap free_round_vector_red_x_cross_mark_sign_icon_png_11641213216il2i1l2yqt {
+            get {
+                object obj = ResourceManager.GetObject("free-round-vector-red-x-cross-mark-sign-icon-png-11641213216il2i1l2yqt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap images {
             get {
                 object obj = ResourceManager.GetObject("images", resourceCulture);
