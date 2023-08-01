@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDeployEase-v1.1", "WebDeployEase-v1.1\WebDeployEase-v1.1.csproj", "{9B86B86B-50C7-4637-814E-3A299B012F4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B86B86B-50C7-4637-814E-3A299B012F4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B86B86B-50C7-4637-814E-3A299B012F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B86B86B-50C7-4637-814E-3A299B012F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B86B86B-50C7-4637-814E-3A299B012F4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6238BC97-AB00-49CD-9460-C6014B61A1C9}
+	EndGlobalSection
+EndGlobal

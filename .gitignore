@@ -10,7 +10,7 @@
 # Visual Studio
 *.vs/
 *.vscode/
-*.sln
+#*.sln
 *.csproj
 *.csproj.user
 *.sln.dotsettings
