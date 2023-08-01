@@ -1,0 +1,17 @@
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\WebDeployEase-v1.1\bin\Debug\net6.0-windows\WebDeployEase-v1.1.exe
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\WebDeployEase-v1.1\bin\Debug\net6.0-windows\WebDeployEase-v1.1.deps.json
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\WebDeployEase-v1.1\bin\Debug\net6.0-windows\WebDeployEase-v1.1.runtimeconfig.json
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\WebDeployEase-v1.1\bin\Debug\net6.0-windows\WebDeployEase-v1.1.dll
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\WebDeployEase-v1.1\bin\Debug\net6.0-windows\WebDeployEase-v1.1.pdb
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\WebDeployEase-v1.1\obj\Debug\net6.0-windows\WebDeployEase-v1.1.csproj.AssemblyReference.cache
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\WebDeployEase-v1.1\obj\Debug\net6.0-windows\WebDeployEase_v1._1.Form1.resources
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\WebDeployEase-v1.1\obj\Debug\net6.0-windows\WebDeployEase-v1.1.csproj.GenerateResource.cache
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\WebDeployEase-v1.1\obj\Debug\net6.0-windows\WebDeployEase-v1.1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\WebDeployEase-v1.1\obj\Debug\net6.0-windows\WebDeployEase-v1.1.AssemblyInfoInputs.cache
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\WebDeployEase-v1.1\obj\Debug\net6.0-windows\WebDeployEase-v1.1.AssemblyInfo.cs
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\WebDeployEase-v1.1\obj\Debug\net6.0-windows\WebDeployEase-v1.1.csproj.CoreCompileInputs.cache
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\WebDeployEase-v1.1\obj\Debug\net6.0-windows\WebDeployEase-v1.1.dll
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\WebDeployEase-v1.1\obj\Debug\net6.0-windows\refint\WebDeployEase-v1.1.dll
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\WebDeployEase-v1.1\obj\Debug\net6.0-windows\WebDeployEase-v1.1.pdb
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\WebDeployEase-v1.1\obj\Debug\net6.0-windows\WebDeployEase-v1.1.genruntimeconfig.cache
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\WebDeployEase-v1.1\obj\Debug\net6.0-windows\ref\WebDeployEase-v1.1.dll
