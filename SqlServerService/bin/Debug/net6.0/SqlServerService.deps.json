@@ -6,6 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
+      "SqlServerService/1.0.0": {
+        "dependencies": {
+          "System.ServiceProcess.ServiceController": "7.0.1"
+        },
+        "runtime": {
+          "SqlServerService.dll": {}
+        }
+      },
       "System.Diagnostics.EventLog/7.0.0": {
         "runtime": {
           "lib/net6.0/System.Diagnostics.EventLog.dll": {
@@ -50,6 +58,11 @@
     }
   },
   "libraries": {
+    "SqlServerService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "System.Diagnostics.EventLog/7.0.0": {
       "type": "package",
       "serviceable": true,

@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {
+    "net6.0": {
       "System.Diagnostics.EventLog/7.0.0": {
         "type": "package",
         "compile": {
@@ -51,19 +51,6 @@
             "assetType": "runtime",
             "rid": "win"
           }
-        }
-      },
-      "SqlServerService/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "System.ServiceProcess.ServiceController": "7.0.1"
-        },
-        "compile": {
-          "bin/placeholder/SqlServerService.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SqlServerService.dll": {}
         }
       }
     }
@@ -132,16 +119,11 @@
         "system.serviceprocess.servicecontroller.nuspec",
         "useSharedDesignerContext.txt"
       ]
-    },
-    "SqlServerService/1.0.0": {
-      "type": "project",
-      "path": "../SqlServerService/SqlServerService.csproj",
-      "msbuildProject": "../SqlServerService/SqlServerService.csproj"
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": [
-      "SqlServerService >= 1.0.0"
+    "net6.0": [
+      "System.ServiceProcess.ServiceController >= 7.0.1"
     ]
   },
   "packageFolders": {
@@ -150,31 +132,27 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Software's\\C#\\DesktopApp\\WebDeployEase-v1.1\\WebDeployEase-v1.1\\WebDeployEase-v1.1.csproj",
-      "projectName": "WebDeployEase-v1.1",
-      "projectPath": "E:\\Software's\\C#\\DesktopApp\\WebDeployEase-v1.1\\WebDeployEase-v1.1\\WebDeployEase-v1.1.csproj",
+      "projectUniqueName": "E:\\Software's\\C#\\DesktopApp\\WebDeployEase-v1.1\\SqlServerService\\SqlServerService.csproj",
+      "projectName": "SqlServerService",
+      "projectPath": "E:\\Software's\\C#\\DesktopApp\\WebDeployEase-v1.1\\SqlServerService\\SqlServerService.csproj",
       "packagesPath": "C:\\Users\\nazib\\.nuget\\packages\\",
-      "outputPath": "E:\\Software's\\C#\\DesktopApp\\WebDeployEase-v1.1\\WebDeployEase-v1.1\\obj\\",
+      "outputPath": "E:\\Software's\\C#\\DesktopApp\\WebDeployEase-v1.1\\SqlServerService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nazib\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0-windows"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0-windows7.0": {
-          "targetAlias": "net6.0-windows",
-          "projectReferences": {
-            "E:\\Software's\\C#\\DesktopApp\\WebDeployEase-v1.1\\SqlServerService\\SqlServerService.csproj": {
-              "projectPath": "E:\\Software's\\C#\\DesktopApp\\WebDeployEase-v1.1\\SqlServerService\\SqlServerService.csproj"
-            }
-          }
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -184,8 +162,14 @@
       }
     },
     "frameworks": {
-      "net6.0-windows7.0": {
-        "targetAlias": "net6.0-windows",
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "System.ServiceProcess.ServiceController": {
+            "target": "Package",
+            "version": "[7.0.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -200,9 +184,6 @@
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
-          },
-          "Microsoft.WindowsDesktop.App.WindowsForms": {
-            "privateAssets": "none"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"

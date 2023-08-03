@@ -4,9 +4,11 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.ServiceProcess;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SqlServerService;
 
 namespace WebDeployEase_v1._1
 {
@@ -64,7 +66,17 @@ namespace WebDeployEase_v1._1
         private void TryToLoginIntoSqlServer()
         {
             Thread.Sleep(6000);
-            panelTryToLoginDefaultDatabase.Visible = true;
+
+            bool sqlServiceIsRunning = SqlServerService.SqlServerServiceProcessor.IsMSSQLServiceRunning();
+
+            if (sqlServiceIsRunning)
+            {
+                MessageBox.Show("Sql Service is Running");
+            }
+            else
+            {
+                MessageBox.Show("Sql Servicer is not Running");
+            }
         }
 
         private void label3_Click(object sender, EventArgs e)

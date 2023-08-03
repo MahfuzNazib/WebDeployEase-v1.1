@@ -17,3 +17,11 @@ E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\WebDeployEase-v1.1\obj\Debug\net6
 E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\WebDeployEase-v1.1\obj\Debug\net6.0-windows\WebDeployEase-v1.1.genruntimeconfig.cache
 E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\WebDeployEase-v1.1\obj\Debug\net6.0-windows\ref\WebDeployEase-v1.1.dll
 E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\WebDeployEase-v1.1\obj\Debug\net6.0-windows\WebDeployEase_v1._1.InstallationProcess.resources
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\WebDeployEase-v1.1\bin\Debug\net6.0-windows\System.Diagnostics.EventLog.dll
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\WebDeployEase-v1.1\bin\Debug\net6.0-windows\System.ServiceProcess.ServiceController.dll
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\WebDeployEase-v1.1\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\WebDeployEase-v1.1\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\WebDeployEase-v1.1\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.ServiceProcess.ServiceController.dll
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\WebDeployEase-v1.1\bin\Debug\net6.0-windows\SqlServerService.dll
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\WebDeployEase-v1.1\bin\Debug\net6.0-windows\SqlServerService.pdb
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\WebDeployEase-v1.1\obj\Debug\net6.0-windows\WebDeployEase-v1.1.csproj.CopyComplete

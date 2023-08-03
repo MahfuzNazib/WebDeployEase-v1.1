@@ -28,4 +28,8 @@
     <Folder Include="Images\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SqlServerService\SqlServerService.csproj" />
+  </ItemGroup>
+
 </Project>

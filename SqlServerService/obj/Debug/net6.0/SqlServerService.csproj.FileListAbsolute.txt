@@ -1,0 +1,12 @@
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\SqlServerService\bin\Debug\net6.0\SqlServerService.deps.json
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\SqlServerService\bin\Debug\net6.0\SqlServerService.dll
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\SqlServerService\bin\Debug\net6.0\SqlServerService.pdb
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\SqlServerService\obj\Debug\net6.0\SqlServerService.csproj.AssemblyReference.cache
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\SqlServerService\obj\Debug\net6.0\SqlServerService.GeneratedMSBuildEditorConfig.editorconfig
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\SqlServerService\obj\Debug\net6.0\SqlServerService.AssemblyInfoInputs.cache
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\SqlServerService\obj\Debug\net6.0\SqlServerService.AssemblyInfo.cs
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\SqlServerService\obj\Debug\net6.0\SqlServerService.csproj.CoreCompileInputs.cache
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\SqlServerService\obj\Debug\net6.0\SqlServerService.dll
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\SqlServerService\obj\Debug\net6.0\refint\SqlServerService.dll
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\SqlServerService\obj\Debug\net6.0\SqlServerService.pdb
+E:\Software's\C#\DesktopApp\WebDeployEase-v1.1\SqlServerService\obj\Debug\net6.0\ref\SqlServerService.dll
